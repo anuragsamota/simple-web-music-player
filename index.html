@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <h1 id="h1">Music Player</h1>
+    <div id="div0"></div>
+    <input type="range" min="0" max="100" id="seek" value="0" onchange="musicseek()">
+    <audio id="player" onended="next()" preload="metadata"></audio>
+    <div class="div1">
+        <button id="prev" onclick="previous()" class="controls">Previous</button>
+        <button id="playbutton" onclick="play_pause()" class="controls">Play/Pause</button>
+        <button id="next" onclick="next()" class="controls">Next</button>
+    </div>
+    <label for="musicInput" id="lb1">Select Music</label>
+    <input type="file" accept="audio/*" multiple id="musicInput" onchange="fileLoad()">
+    <div id="div2">
+        <ul id="musicList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

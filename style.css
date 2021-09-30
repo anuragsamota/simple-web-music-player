@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 12, 71);
+    
+}
+#div0{
+    text-align: center;
+    color: red;
+    font-family: monospace;
+}
+.playButton{
+    background: none;
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 25px;
+    outline: none;
+    font-family: cursive;
+}
+.playButton:active{
+    color: rgb(18, 12, 71);
+    background-color: cyan;
+}
+h1{
+    font-family: cursive;
+}
+.div1{
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
+#h1{
+    margin: auto;
+    width: fit-content;
+    color: blueviolet;
+}
+#seek{
+    margin-left: 25%;
+    width: 50%;
+}
+#musicList{
+    color: rgb(86, 250, 81);
+    font-family: cursive;
+}
+.controls{
+    padding: 5px;
+    background: none;
+    color: cyan;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: cyan;
+    font-family: cursive;
+    outline: none;
+}
+.controls:active{
+    background-color: cyan;
+    color: rgb(18, 12, 71);
+}
+input[type=file]{
+    display: none;
+}
+#lb1{
+    font-family: cursive;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 37.5%;
+    width: 25%;
+    text-align: center;
+    padding: 4px;
+    color: cyan;
+    size: 10px;
+    border: 2px solid cyan;
+    border-radius: 50px;
+}
+#lb1:active{
+    background: cyan;
+    color: rgb(18, 12, 71);
+}
+#div2{
+    width: hw;
+}
